@@ -1,7 +1,4 @@
-Here’s a sample README.md file:
 
-markdown
-Copy code
 # VPC Flow Logs Lab
 
 This repository demonstrates how to create and work with Amazon VPC Flow Logs, capture network traffic, and analyze logs. The lab includes setting up a VPC, generating traffic, and storing flow logs in Amazon S3.
