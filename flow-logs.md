@@ -67,27 +67,10 @@ VPC Flow Logs can be exported and shared in various formats, such as Excel sheet
 
 The Security and Governance team regularly audits these logs. In case of repeated suspicious hits, they may block the IP addresses involved to ensure network security.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-perl
-Copy code
-
 ### 2. Add the Shell Scripts:
 Create a directory called `shell-scripts/` and place the shell scripts (`install_nginx.sh` and `traffic_generator.sh`) inside it.
 
-### Example of `install_nginx.sh`:
-
 ```bash
-#!/bin/bash
-sudo apt update
-sudo apt install -y nginx
-sudo systemctl start nginx
-sudo systemctl enable nginx
-sudo systemctl status nginx
-Example of traffic_generator.sh:
-bash
-Copy code
 #!/bin/bash
 while true; do
   curl ec2-18-213-110-137.compute-1.amazonaws.com | grep -i nginx;
