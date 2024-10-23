@@ -53,7 +53,7 @@ Use the following shell script on the instance to continuously generate traffic 
 bash
 Copy code
 # traffic_generator.sh
-
+ curl ec2-ip-pub.dns
 #!/bin/bash
 while true; do
   curl ec2-18-213-110-137.compute-1.amazonaws.com | grep -i nginx;
