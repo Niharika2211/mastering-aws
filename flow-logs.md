@@ -67,7 +67,7 @@ VPC Flow Logs can be exported and shared in various formats, such as Excel sheet
 
 The Security and Governance team regularly audits these logs. In case of repeated suspicious hits, they may block the IP addresses involved to ensure network security.
 
-### 2. Add the Shell Scripts:
+2. Add the Shell Scripts:
 Create a directory called `shell-scripts/` and place the shell scripts (`install_nginx.sh` and `traffic_generator.sh`) inside it.
 
 ```bash
